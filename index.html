@@ -1,0 +1,125 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Юлия Манюк — Junior Front-End разработчик</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Outfit:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="page">
+    <nav class="nav" aria-label="Навигация по резюме">
+      <ul class="nav-list">
+        <li><a href="#about">О себе</a></li>
+        <li><a href="#education">Образование</a></li>
+        <li><a href="#skills">Навыки</a></li>
+        <li><a href="#experience">Опыт</a></li>
+        <li><a href="#contacts" class="nav-cta">Контакты</a></li>
+      </ul>
+      <button type="button" class="print-btn" aria-label="Сохранить в PDF">Сохранить в PDF</button>
+    </nav>
+
+    <header class="hero">
+      <div class="hero-bg"></div>
+      <div class="hero-content">
+        <p class="hero-role">Junior Front-End разработчик</p>
+        <h1 class="hero-name">Юлия Манюк</h1>
+        <p class="hero-tagline">Angular · TypeScript · Дизайн & UX</p>
+      </div>
+    </header>
+
+    <main class="main">
+      <section id="contacts" class="section section-contacts">
+        <h2 class="section-title">Контакты</h2>
+        <ul class="contacts-list">
+          <li><span class="label">Email</span><a href="mailto:post.yuliia@gmail.com">post.yuliia@gmail.com</a></li>
+          <li><span class="label">Телефон</span><a href="tel:+79023944020">+7 (902) 394-40-20</a></li>
+          <li><span class="label">Языки</span>русский, английский</li>
+          <li><span class="label">GitHub</span><a href="https://github.com/Julsssssssssssss" target="_blank" rel="noopener">github.com</a></li>
+        </ul>
+      </section>
+
+      <section id="about" class="section">
+        <h2 class="section-title">О себе</h2>
+        <div class="prose">
+          <p>Студентка 2 курса ТУЛГУ по направлению «Программная инженерия», начинающий frontend‑разработчик без коммерческого опыта. Окончила курс по Frontend разработке и получила сертификат от тульской компании.</p>
+          <p>Профессионально занимаюсь рисованием и понимаю основы дизайна — применяю творческие навыки к понятному и удобному интерфейсу. Ищу стажировку для роста в <strong>Angular</strong> и <strong>TypeScript</strong>, а также в работе с другими средами разработки.</p>
+        </div>
+      </section>
+
+      <section id="education" class="section">
+        <h2 class="section-title">Образование</h2>
+        <div class="cards">
+          <article class="card">
+            <h3 class="card-title">Тульский государственный университет</h3>
+            <ul class="card-meta">
+              <li><em>Направление:</em> Программная инженерия</li>
+              <li><em>Статус:</em> 2 курс</li>
+              <li><em>Город:</em> Тула</li>
+            </ul>
+          </article>
+          <article class="card">
+            <h3 class="card-title">Курс по Front-End разработке</h3>
+            <ul class="card-meta">
+              <li><em>Организатор:</em> Кодмастерс</li>
+              <li><em>Сертификат:</em> есть</li>
+              <li><em>Содержание:</em> Angular, HTML, CSS, JavaScript / TypeScript, основы фронтенда</li>
+            </ul>
+          </article>
+        </div>
+      </section>
+
+      <section id="skills" class="section">
+        <h2 class="section-title">Навыки</h2>
+        <div class="skills-grid">
+          <div class="skill-group">
+            <h3 class="skill-group-title">Front-end</h3>
+            <p class="skill-tags">Angular, HTML, CSS, TypeScript</p>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Знакомство</h3>
+            <p class="skill-tags">C++, Python</p>
+          </div>
+          <div class="skill-group skill-group-wide">
+            <h3 class="skill-group-title">Дизайн и UX</h3>
+            <p>Понимание вёрстки, композиции, визуальной иерархии; опыт в визуальном дизайне благодаря художественной практике.</p>
+          </div>
+          <div class="skill-group">
+            <h3 class="skill-group-title">Языки</h3>
+            <p class="skill-tags">Русский, английский</p>
+          </div>
+        </div>
+      </section>
+
+      <section id="experience" class="section">
+        <h2 class="section-title">Опыт</h2>
+        <p class="experience-intro">Коммерческого опыта пока нет.</p>
+        <p class="experience-sub">Учебные и личные проекты:</p>
+        <ul class="project-list">
+          <li class="project-item">
+            <strong>Quiz</strong> — квиз-приложение на Angular, TypeScript, работа с API.
+            <a href="https://github.com/Julsssssssssssss/frontendCourseProject" target="_blank" rel="noopener">GitHub проекта</a>
+          </li>
+          <li class="project-item">
+            <strong>Портфолио</strong> — визуальное портфолио на HTML, SCSS, TS, JS.
+            <a href="https://github.com/Julsssssssssssss/course" target="_blank" rel="noopener">GitHub проекта</a>
+          </li>
+          <li class="project-item">
+            <strong>Quiz (Selectel)</strong> — тестовое задание для компании Selectel.
+            <a href="https://github.com/Julsssssssssssss/TestAssignmentSelectel" target="_blank" rel="noopener">GitHub проекта</a>
+          </li>
+        </ul>
+      </section>
+    </main>
+
+    <footer class="footer">
+      <p>Юлия Манюк · Junior Front-End разработчик</p>
+    </footer>
+  </div>
+
+  <script src="script.js"></script>
+</body>
+</html>
